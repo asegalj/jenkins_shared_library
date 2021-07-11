@@ -2,7 +2,6 @@
 
 def call(a) {
     echo "Hello World $a"
-    def auditTools = auditTools()
 }
 
 def auditTools() {
