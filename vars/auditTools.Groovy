@@ -1,7 +1,7 @@
 #!groovy
 
-def call(a) {
-    echo "Hello World $a"
+def call() {
+    echo 'Hello World'
 }
 
 def auditTools() {
