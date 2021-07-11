@@ -4,10 +4,11 @@ def call() {
     }
     
 def auditTools(){
-        sh '''
-            git version
-            dotnet --list-sdks
-            dotnet --list-runtimes
-        '''
+    echo "test"
+     //   sh '''
+    //        git version
+    //        dotnet --list-sdks
+    //        dotnet --list-runtimes
+   //     '''
     }
 
