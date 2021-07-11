@@ -1,11 +1,12 @@
-def call() {
-    echo "WHY ARE YOU CALLING THIS FUNCTION!??!"
-    node {
-        df auditTools = auditTools()
-    }
+#!groovy
 
-def auditTools(){
-    echo "test"
+def call(a) {
+    echo "Hello World $a"
+    def auditTools = auditTools()
+}
+
+def auditTools() {
+    echo 'test'
 //   sh '''
 //        git version
 //        dotnet --list-sdks
